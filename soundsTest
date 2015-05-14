@@ -1,0 +1,4 @@
+#!/bin/bash
+# Test default sound inside boot
+description "Play Sound Test"
+mpg123 /boot/piget/config/soundTest.mp3

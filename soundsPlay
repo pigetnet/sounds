@@ -1,0 +1,11 @@
+#!/bin/bash
+mp3=$1
+
+if [ $# -eq 1 ]; then
+description "Playing $mp3"
+mpg123 $1
+else
+	errorBox "Wrong Arguments"
+	usage "soundsPlay mp3"
+	example "/boot/piget/soundtest.mp3"
+fi

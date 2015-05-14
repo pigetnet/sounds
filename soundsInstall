@@ -1,0 +1,6 @@
+#!/bin/bash
+description "Install Software to play a sound"
+installer mpg123
+
+soundsSetup
+soundsTest
