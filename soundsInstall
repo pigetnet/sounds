@@ -1,6 +1,6 @@
 #!/bin/bash
 description "Install Software to play a sound"
+usermod -a -G audio www-data  
 installer mpg123
-
 soundsSetup
 soundsTest
