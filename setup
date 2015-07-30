@@ -12,9 +12,9 @@ do_audio() {
   fi
 }
 
-description "Audio Configuration"
-messagebox "HDMI/JACK"
+/show/description "Audio Configuration"
+/show/listecho "HDMI/JACK"
 do_audio
-messagebox "Alsa Mixer"
+/show/listecho "Alsa Mixer"
 alsamixer
 

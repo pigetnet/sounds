@@ -1,0 +1,11 @@
+#!/bin/bash
+mp3=$1
+
+if [ $# -eq 1 ]; then
+	/show/listecho "Playing $mp3"
+	mpg123 $1
+else
+	/show/errorBox "Wrong Arguments"
+	/show/usage "/do/sounds/play mp3"
+	/show/example "/do/sounds/play /boot/piget/config/soundtest.mp3"
+fi

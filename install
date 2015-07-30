@@ -1,0 +1,4 @@
+#!/bin/bash
+/show/description "Install Software to play a sound"
+usermod -a -G audio www-data
+/system/install mpg123
