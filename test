@@ -1,4 +1,4 @@
 #!/bin/bash
 # Test default sound inside boot
 /show/listecho "sound Test"
-mpg123 /boot/piget/config/soundTest.mp3
+mpg123 /do/sounds/mp3/coins.mp3
